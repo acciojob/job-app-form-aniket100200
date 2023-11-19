@@ -1,5 +1,11 @@
 
 /* Your CSS Code here. */
-#name{
-		width:40%;
+
+	#name{
+			color:green;
+	}
+.required::before
+{
+	content:"*";
+		color:red;
 }

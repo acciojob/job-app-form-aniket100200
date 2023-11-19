@@ -9,19 +9,19 @@
 <body>
 	<!-- the entire body must be written by student -->
 		<form method="post">
-			<label for='name'>Name *:</label>
-			<input type='text' id='name' class='i1'>
+			<label for='name' class='required'>Name:</label>
+			<input type='text' id='name' class='i1' required>
 			<br>
 			<br>
-			<label for='mail'>Email *:</label>
-			<input type='email' id='mail' class='i1'>
+			<label for='mail' class='required'>Email:</label>
+			<input type='email' id='mail' class='i1' required>
 			<br>
 
 			<br>
-			<lable for='gender'>Gender *: </lable>
-			<input type='radio' name='gender'> Male
-			<input type='radio' name='gender'> Female
-			<input type='radio' name='gender'> Others
+			<lable for='gender' class='required'>Gender: </lable>
+			<input type='radio' name='gender' required> Male
+			<input type='radio' name='gender' required> Female
+			<input type='radio' name='gender' required> Others
 
 			<br>
 			<br>
@@ -34,18 +34,18 @@
 			</select>
 		<br>
 			<br>
-				<label for='age'>Age <span style='color:red;'>*</span>:</label>
-			<input type='number' id='age' name='age' >
+				<label for='age' class='required'>Age:</label>
+			<input type='number' id='age' name='age' required>
 				<br>
 			<br>
-			<label for='dob'>Date of Birth *</label>
-			<input type='date' id='dob'>
+			<label for='dob' class='required'>Date of Birth</label>
+			<input type='date' id='dob' required>
 
 			<br>
 			<br>
 
-			<label for='password'>Password *</label>
-			<input type='password' id='password'>
+			<label for='password' class='required'>Password</label>
+			<input type='password' id='password' required>
 
 			
 			<br>
