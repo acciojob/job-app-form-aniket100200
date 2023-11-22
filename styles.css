@@ -4,8 +4,12 @@
 	#name{
 			color:green;
 	}
+
+#gender{
+	font-weight:900;
+}
 .required::before
 {
 	content:"*";
-		color:red;
+	color:red;
 }
