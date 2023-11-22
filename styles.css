@@ -1,12 +1,20 @@
 
 /* Your CSS Code here. */
 
-	#name{
-			color:green;
-	}
+	
+/* Your CSS Code here. */
 
-#gender{
-	font-weight:900;
+#form{
+	height:90vh;
+	background-color:aqua;
+	
+}
+
+#form>div
+{
+	margin-top:25px;
+		padding:10px;
+	margin-left:30px;
 }
 .required::before
 {

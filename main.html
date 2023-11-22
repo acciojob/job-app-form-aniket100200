@@ -8,54 +8,52 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-		<form method="post">
+	<form method='post' id='form'>
+		<div>
 			<label for='name' class='required'>Name</label>
-			<input type='text' id='name' class='i1' required>
-			<br>
-			<br>
-			<label for='mail' class='required'>Email</label>
-			<input type='email' id='mail' class='i1' required>
-			<br>
-
-			<br>
-			<lable for='gender' class='required'>Gender </lable>
-			<input type='radio' name='gender' required> Male
-			<input type='radio' name='gender' required > Female
-			<input type='radio' name='gender'  required > Others
-
-			<br>
-			
-			<label for='laptop'>Laptop Brands</label>
-			<select id='laptop'>			
-				<option value='apple' >Apple</option>
-				<option value='asus' >Asus</option>
-				<option value='Hp' >hp</option>
+			<input type='text' id='name' required>
+		</div>
+		
+		<div>
+			<label for='email' class='required'>Email</label>
+			<input type='email' id='email' required>
+		</div>
+		<div>
+			<label for='gender' class='required'>Gender</label>
+			<input type='radio' name='gender' required>Male
+			<input type='radio' name='gender' required>Female
+			<input type='radio' name='gender' required>Others
+		</div>
+		<div>
+			<label for='laptop'>Laptop Brands</lable>
+			<select id='laptop'>
+				<option value='apple'>Apple</option>
+				<option value='asus'> Asus</option>
+				<option value='hp'>Hp</option>
 			</select>
-		<br>
-			<br>
-				<label for='age' class='required'>Age</label>
-			<input type='number' id='age' name='age' required>
-				<br>
-			<br>
+		</div>
+		<div>
+			<label for='age' class='required'>Age</label>
+			<input type='number' id='age' required>
+		</div>
+		<div>
 			<label for='dob' class='required'>Date of Birth</label>
 			<input type='date' id='dob' required>
-
-			<br>
-			<br>
-
+		</div>
+		<div>
 			<label for='password' class='required'>Password</label>
 			<input type='password' id='password' required>
+		</div>
 
-			
-			<br>
-			<br>
+		<div>
 			<label for='portfolio'>Portfolio URL</label>
-			<input for='url' id='portfolio'>
-			<br>
-			<br>
-
-			<button>Submit Button</button>
-		</form>
+			<input type='url' id='portfolio'>
+		</div>
+		<div>
+				<button type='submit'>Submit Button</button>
+		</div>
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
